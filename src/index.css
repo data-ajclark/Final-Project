@@ -1,3 +1,5 @@
+
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -5,9 +7,69 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-image: url("https://cdn.wallpapersafari.com/48/81/7bFhy5.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.main-header {
+  text-align: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 75px;
+  padding-top: 3vh;
+}
+
+.main-subheader {
+  text-align: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 45px;
+  margin-bottom: 4vh;
+}
+
+.headers {
+  text-align: center;
+}
+
+.topbar {
+  background-color: black;
+}
+
+.card {
+  align-items: center;
+  text-align: center;
+  background-color: #cee0ee;
+  padding-top: 1vh;
+}
+
+.card-body {
+  font-weight: 500;
+}
+
+.accordion-body {
+  text-align: center;
+  background-color: #cee0ee;
+  font-size: large;
+  font-weight: 600;
+}
+
+.main-accordion {
+  background-color: skyblue;
+}
+
+.comment-box {
+  text-align: center;
+  font-size: xx-large;
+  font-weight: 650;
+}
+
+.comment-btn {
+  display: flex;
+  flex-direction: column;
 }

@@ -3,11 +3,16 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import Topbar from './Components/Topbar.js';
+import "bootstrap/dist/css/bootstrap.min.css";
+import Footer from './Components/Footer.js';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
+    <Topbar />
     <App />
+    <Footer />
   </React.StrictMode>
 );
 
