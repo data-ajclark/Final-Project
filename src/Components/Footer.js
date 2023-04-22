@@ -1,17 +1,13 @@
 import React from 'react';
-import {
-  MDBFooter,
-  MDBContainer,
-} from 'mdb-react-ui-kit';
 
-export default function App() {
+
+function Footer() {
   return (
-    <MDBFooter className='bg-dark text-center text-white'>
-      <MDBContainer className='p-4 pb-0'>
-        <section className='mb-4'>
-          <p>Created 2023</p>
-        </section>
-      </MDBContainer>
-    </MDBFooter>
+    <footer id="sticky-footer" className="flex-shrink-0 py-4 bg-dark text-white-50">
+    <div className="container text-center">
+      <small>Created 2023: Promineo Tech Final Project</small>
+    </div>
+  </footer>
   );
 }
+export default Footer;

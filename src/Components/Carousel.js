@@ -5,7 +5,6 @@ import {
   CarouselItem,
   CarouselControl,
   CarouselIndicators,
-  CarouselCaption,
 } from 'reactstrap';
 
 
@@ -61,10 +60,7 @@ function Example(args) {
         key={item.src}
       >
         <img height="500" width="100%" className="shadow p-3 mb-5 rounded noPadding" src={item.src} alt={item.altText} />
-        <CarouselCaption
-          captionText={item.caption}
-          captionHeader={item.caption}
-        />
+        
       </CarouselItem>
     );
   });
